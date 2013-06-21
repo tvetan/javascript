@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <style>
+
+            .trie-view
+            {
+                margin-left: 100px;
+            }
+            
+            .trie-view li
+            {
+                padding-left: 20px;
+            }
+            
+            .hit-area{
+                height: 16px;
+                width: 16px;
+                margin-left: -16px;
+                float: left;
+                cursor: pointer;
+                background: url(collapsed.png) no-repeat;
+                margin-right: 3px;
+            }
+            .collapsed
+            {
+                display: none;
+            }
+            
+            .nested-elements
+            { 
+                
+                cursor: pointer;
+            }
+
+            .expanded
+            {
+                background: url(expanded.png) no-repeat;
+            }
+            
+            .opened
+            {
+                color: orange;
+            }
+            li, ul
+            {
+                list-style: none;
+                padding: 0;
+            }
+        </style>
+        <script src="Scripts/jquery-2.0.2.min.js"></script>
+    </head>
+    <body>
+        <div >
+            <ul class="trie-view">
+                <li>
+                    
+                    <span> sub</span>
+                    <ul>
+                        <li>sub 2</li>
+                        <li>sub 2</li>
+                        <li>sub 2</li>
+                        <li>
+                            <span> sub</span>
+                            <ul>
+                                <li>
+                                    <span> sub</span>
+                                    <ul>
+                                        <li>sub 2</li>
+                                        <li>sub 2</li>
+                                        <li>sub 2</li>
+                                        <li>
+                                            <span> sub</span>
+                                            <ul>
+                                                <li>sub 2</li>
+                                                <li>
+                                                    <span> sub</span>
+                                                    <ul>
+                                                        <li>sub 2</li>
+                                                        <li>sub 2</li>
+                                                        <li>sub 2</li>
+                                                        <li>sub 2</li>
+                                                        <li>sub 2</li>
+                                                    </ul>
+                                                </li>
+                                                <li>sub 2</li>
+                                                <li>sub 2</li>
+                                                <li>sub 2</li>
+                                            </ul>
+                                        </li>
+                                        <li>sub 2</li>
+                                    </ul>
+                                </li>
+                                <li>sub 2</li>
+                                <li>sub 2</li>
+                                <li>sub 2</li>
+                                <li>sub 2</li>
+                            </ul>
+                        </li>
+                        <li>sub 2</li>
+                    </ul>
+                </li>
+                <li>
+
+                    <span> sub</span>
+                </li>
+                <li>
+                    <span> sub</span>
+                </li>
+                <li>
+                    <span> sub</span>
+                    <ul>
+                        <li>
+                            <span> sub 2</span>
+                            <ul>
+                                <li>sub 2</li>
+                                <li>sub 2</li>
+                                <li>sub 2</li>
+                                <li>sub 2</li>
+                                <li>sub 2</li>
+                            </ul>
+                        </li>
+                        <li>sub 2</li>
+                        <li>sub 2</li>
+                        <li>sub 2</li>
+                        <li>sub 2</li>
+                    </ul>
+                </li>
+                <li>
+                    <span> sub</span>
+                </li>
+                <li>
+                    <span> sub</span>
+                    <ul>
+                        <li>
+                            <span> sub</span>
+                            <ul>
+                                <li>sub 2</li>
+                                <li>sub 2</li>
+                                <li>sub 2</li>
+                                <li>sub 2</li>
+                                <li>sub 2</li>
+                            </ul>
+                        </li>
+                        <li>sub 2</li>
+                        <li>sub 2</li>
+                        <li>sub 2</li>
+                        <li>sub 2</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <script src="TrieView.js"></script>
+        <script>    
+            
+            
+            $(".trie-view").TrieView()
+        </script>
+    </body>
+</html>
