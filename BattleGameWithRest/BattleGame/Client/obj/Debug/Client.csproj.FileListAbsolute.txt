@@ -3,3 +3,8 @@ C:\Users\1\Desktop\BattleGame\Client\bin\Client.pdb
 C:\Users\1\Desktop\BattleGame\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
 C:\Users\1\Desktop\BattleGame\Client\obj\Debug\Client.dll
 C:\Users\1\Desktop\BattleGame\Client\obj\Debug\Client.pdb
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\javascript\BattleGameWithRest\BattleGame\Client\bin\Client.dll
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\javascript\BattleGameWithRest\BattleGame\Client\bin\Client.pdb
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\javascript\BattleGameWithRest\BattleGame\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\javascript\BattleGameWithRest\BattleGame\Client\obj\Debug\Client.dll
+C:\Users\1\Desktop\PhotoShopFirstHomework\Photoshop\javascript\BattleGameWithRest\BattleGame\Client\obj\Debug\Client.pdb
