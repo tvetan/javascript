@@ -1,0 +1,9 @@
+
+Add this in Web.config
+
+<system.webServer>
+    <staticContent>
+      <mimeMap fileExtension=".json" mimeType="application/json" />
+    </staticContent>
+</system.webServer>
+
